@@ -10,3 +10,5 @@ Merge -> Junt o trabalho de duas pessoas.
 Versionamento de código -> Um sistema que guarda o histórico do projeto: cada alteração vira um ponto de salvamento - como um save game do seu código.
 
 27/08 -> Hoje o Vinicius nos apresentou sobre o Game Design Document (GDD), é começou a nos apresentar sobre o Game Design. O Game Design de um jogo, criado pelo profissional chamado "Game Designer", é a área que cuida da elaboração do projeto, compreendendo seus níveis, puzzles, artes, animações, mecânicas, roteiros e muito mais. Aprendemos o 1º tipo de Game Design de Mecânica: Cuida de todo o processo criativo de como o jogo será, seus elementos jogáveis, tais como objetos,atributos, ações, regras e etc.
+
+17/09/2026 -> Hoje nós adicionamos o Movimento Horizontal ao player é adicionamos o Pulo Duplo ao jogador (Pulo Infinito). 
