@@ -3,8 +3,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float speed = 5f;
-    private Rigidbody2D rb; 
-
+    private Rigidbody2D rb;
+    private bool isGrounded = false;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();  
@@ -14,14 +14,31 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");//Vai reconhecera que ele moverá para a Horizontal
+        float moveHorizontal = Input.GetAxis("Horizontal");//Vai reconhecer o movimento Horizontal
         rb.linearVelocity = new Vector2(moveHorizontal * speed, rb.linearVelocity.y); // Vai adicionar a velocidade na Horizontal
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse); // Vai pular(pulo infinito) e vai cair no chão graças a aceleração
+            rb.AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse); // Vai pular (pulo infinito) e vai cair no chão graças a aceleração
         }
         
 
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true; //Vai reconhecer quando o jogador estiver no chão
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false; // Vai reconhecer quando o jogador não estiver no chão
+        }
+    }
+
 }
