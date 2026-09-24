@@ -14,3 +14,5 @@ Versionamento de código -> Um sistema que guarda o histórico do projeto: cada 
 17/09/2026 -> Hoje nós adicionamos o Movimento Horizontal ao player é adicionamos o Pulo Duplo ao jogador (Pulo Infinito). 
 
 22/09/2026 -> Hoje nós limitamos o Pulo Duplo pra o jogador não ficar pulando infinitamente e adicionamos a camera seguir o player. Atualmente o player podera dar só um pulo, iremos arrumar o pulo duplo mais pra frente, é com isso finalizamos o projeto de hoje.
+
+24/09/2026 -> Adicionamos hoje o cénario do jogo envolvendo as plataformas, espinhos e parkour. É eu mudei o meu player, o meu player antes era um triangulo, eu mudei ele para um quadrado, pois achei que seria melhor e mais prático na gameplay do meu jogo.
