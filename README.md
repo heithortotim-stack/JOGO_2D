@@ -27,3 +27,5 @@ Versionamento de código -> Um sistema que guarda o histórico do projeto: cada 
 3. Em Áudio e Equipamento de Música (Ex: Fractal Audio): Em processadores de efeitos e modeladores de amplificadores para guitarra (como o Fractal FM3), o "Scene Manager" ou sistema de Scenes gere blocos de efeitos, canais e estados predefinidos dentro de um único preset, permitindo alternar sons instantaneamente sem latência.
    
  Hoje eu adicionei o Respawn e o Check-point. Respawn:  É o mecanismo que permite a um jogador voltar à partida depois de ser derrotado. O local onde ele reaparece é chamado de spawn point (ponto de renascimento).Check-point: •  Um local específico em um nível ou fase. Se o personagem morre, o jogo recua o progresso até esse ponto em vez de reiniciar a partida do zero.
+
+15/10/2026 -> Hoje a gente criou a cena de derrota e iremos arrumar ela e desenvolver a cena de derrota, na próxima terça-feira, no dia 20/10/2026. A gente criou a tela de derrota e os botões para a cena de derrota.
