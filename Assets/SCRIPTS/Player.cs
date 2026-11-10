@@ -5,6 +5,7 @@ public class Player : MonoBehaviour
     public float speed = 5f;
     private Rigidbody2D rb;
     private bool isGrounded = false;
+    public MenuScene menu;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();  
@@ -33,7 +34,7 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Dano"))
         {
-            SceneManager.LoadScene(0);
+            menu.MostrarGameOver(); 
         }
 
     }
