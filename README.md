@@ -31,3 +31,5 @@ Versionamento de código -> Um sistema que guarda o histórico do projeto: cada 
 15/10/2026 -> Hoje a gente criou a cena de derrota e iremos arrumar ela e desenvolver a cena de derrota, na próxima terça-feira, no dia 20/10/2026. A gente criou a tela de derrota e os botões para a cena de derrota.
 
 10/11/2026 -> Hoje definitivamente terminamos de programar a cena de morte junto com o Botão Reset é funcionou. Também criamos a cena de pausa com o botão de menu, que não deu tempo para fazer a programação.
+
+12/11/2026 -> Hoje criamos a tela de Menu e configuramos o botão de Start e criamos o botão pra sair do jogo. Atualmente estou desenvolvendo a Fase 2.
