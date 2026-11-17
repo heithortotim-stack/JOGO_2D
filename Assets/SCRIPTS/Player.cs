@@ -34,12 +34,11 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Dano"))
         {
-            menu.MostrarGameOver(); 
+            menu.MostrarGameOver();
         }
-
     }
 
-    void OnCollisionExit2D(Collision2D collision)
+    private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
