@@ -33,3 +33,5 @@ Versionamento de código -> Um sistema que guarda o histórico do projeto: cada 
 10/11/2026 -> Hoje definitivamente terminamos de programar a cena de morte junto com o Botão Reset é funcionou. Também criamos a cena de pausa com o botão de menu, que não deu tempo para fazer a programação.
 
 12/11/2026 -> Hoje criamos a tela de Menu e configuramos o botão de Start e criamos o botão pra sair do jogo. Atualmente estou desenvolvendo a Fase 2.
+
+17/11/2026 -> Hoje eu arrumei a Segunda fase do meu jogo e consegui criar uma bandeira pra passar pro próximo nivel do jogo, eu bagunçei algumas telas como a de derrota, vitoria , pausa e menu, mas consegui arrumar a tela de derrota, vitória e do menu na Primeira fase. Agora só falta arrumar a tela de Vitória, pausa e derrota da Segunda Fase.
